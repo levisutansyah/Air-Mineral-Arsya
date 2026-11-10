@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko Air Mineral Cleo Arsya</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f6f6f6;
+}
+
+header{
+    background:linear-gradient(135deg,#0099ff,#005eff);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.judul{
+    text-align:center;
+    margin-bottom:30px;
+    color:#005eff;
+}
+
+.produk-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:20px;
+    text-align:center;
+}
+
+.card-body h3{
+    color:#005eff;
+    margin-bottom:10px;
+}
+
+.harga{
+    color:#00aa44;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    background:#25D366;
+    color:rgb(255, 255, 255);
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+.btn-maps{
+    display:inline-block;
+    color:rgb(237, 245, 13);
+    padding: 10px;
+    border-radius:8px;
+    left: 50rem;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1ebc59;
+}
+
+.tentang{
+    background:rgb(225, 138, 138);
+    margin-top:50px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+.tentang h2{
+    color:#005eff;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#005eff;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.hero-icon{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:30px;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero-icon">💧</div>
+    <h1>Toko Air Mineral Cleo Arsya</h1>
+    <p>Menyediakan Air Mineral Cleo Berkualitas & Harga Terjangkau</p>
+</header>
+
+<div class="container">
+
+    <h2 class="judul">Produk Kami</h2>
+
+    <div class="produk-grid">
+
+        <div class="card">
+            <img src="cleo220ml.png" alt="Cleo Cup">
+            <div class="card-body">
+                <h3>Cleo Cup 220 ml</h3>
+                <div class="harga">Rp 18.000</div>
+                <a class="btn"
+                href="https://wa.me/6282283800400?text=Saya%20ingin%20memesan%20Cleo%20Cup%20220ml"
+                target="_blank" rel="noopener noreferrer">
+                Pesan Sekarang
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="cleo660ml.png" alt="Cleo Botol">
+            <div class="card-body">
+                <h3>Cleo Botol 600 ml</h3>
+                <div class="harga">Rp 35.000</div>
+                <a class="btn"
+                href="https://wa.me/6282283800400?text=Saya%20ingin%20memesan%20Cleo%20600ml"
+                target="_blank" rel="noopener noreferrer">
+                Pesan Sekarang
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="cleo19ltr.png" alt="Cleo Galon">
+            <div class="card-body">
+                <h3>Cleo Galon 19 Liter</h3>
+                <div class="harga">Rp 22.000</div>
+                <a class="btn"
+                href="https://wa.me/6282283800400?text=Saya%20ingin%20memesan%20Cleo%20Galon"
+                target="_blank" rel="noopener noreferrer">
+                Pesan Sekarang
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="tentang">
+        <h2>Tentang Toko</h2>
+        <p>
+            Toko Air Mineral Cleo Arsya menyediakan berbagai produk
+            Air Mineral Cleo untuk kebutuhan rumah tangga, kantor, acara,
+            dan kebutuhan harian Anda.
+        </p>
+
+        <br>
+
+        <h3><a class="btn-maps" href="https://maps.app.goo.gl/vv7KxQvMKFgGVT899" target="_blank" rel="noopener noreferrer">📍Lokasi Toko Arsya</a></h3>
+        <p>Pelayanan Cepat • Harga Bersahabat • Produk Original</p>
+
+        <br>
+
+        <a class="btn"
+        href="https://wa.me/6282283800400"
+        target="_blank" rel="noopener noreferrer">
+        Hubungi Mba Lisa via WhatsApp
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2014 Toko Air Mineral Cleo Arsya
+</footer>
+
+</body>
+</html>
